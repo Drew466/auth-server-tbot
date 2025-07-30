@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Успешная авторизация</title>
+    <style>
+        body {
+            background: #e0ffe0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .success-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .success-container button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #888;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .success-container button:hover {
+            background-color: #555;
+        }
+    </style>
+    <script>
+        function minimizeWindow() {
+            window.open('', '_self', ''); 
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <div class="success-container">
+        <h2>Вы успешно авторизованы!</h2>
+        <p>Доступ разрешён на 4 месяца.</p>
+        <button onclick="minimizeWindow()">Свернуть окно</button>
+    </div>
+</body>
+</html>

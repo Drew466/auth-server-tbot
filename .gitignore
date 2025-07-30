@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# dotenv environment variables file
+.env
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs and debug
+*.log
+
+# SQLite DB files (optional if user wants to ignore dbs)
+*.sqlite3
